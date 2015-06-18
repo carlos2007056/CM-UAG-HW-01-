@@ -10,11 +10,15 @@
 		726CCCAB1B33284E00457183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCAA1B33284E00457183 /* main.m */; };
 		726CCCAE1B33284E00457183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCAD1B33284E00457183 /* AppDelegate.m */; };
 		726CCCB11B33284E00457183 /* master_mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCAF1B33284E00457183 /* master_mobile.xcdatamodeld */; };
-		726CCCB41B33284E00457183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCB31B33284E00457183 /* ViewController.m */; };
+		726CCCB41B33284E00457183 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCB31B33284E00457183 /* Start.m */; };
 		726CCCB71B33284E00457183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726CCCB51B33284E00457183 /* Main.storyboard */; };
 		726CCCB91B33284E00457183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726CCCB81B33284E00457183 /* Images.xcassets */; };
-		726CCCBC1B33284E00457183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726CCCBA1B33284E00457183 /* LaunchScreen.xib */; };
 		726CCCC81B33284E00457183 /* master_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCC71B33284E00457183 /* master_mobileTests.m */; };
+		726CCCD61B332B9C00457183 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCD51B332B9C00457183 /* Declarations.m */; };
+		726CCCDA1B332C2500457183 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCD81B332C2500457183 /* Cell.m */; };
+		726CCCDB1B332C2500457183 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726CCCD91B332C2500457183 /* Cell.xib */; };
+		726CCCE11B333DF000457183 /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCE01B333DF000457183 /* DetailsController.m */; };
+		726CCCE41B33589200457183 /* AddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CCCE31B33589200457183 /* AddController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,22 @@
 		726CCCAC1B33284E00457183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		726CCCAD1B33284E00457183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		726CCCB01B33284E00457183 /* master_mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = master_mobile.xcdatamodel; sourceTree = "<group>"; };
-		726CCCB21B33284E00457183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		726CCCB31B33284E00457183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		726CCCB21B33284E00457183 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		726CCCB31B33284E00457183 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		726CCCB61B33284E00457183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		726CCCB81B33284E00457183 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		726CCCBB1B33284E00457183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		726CCCC11B33284E00457183 /* master.mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = master.mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		726CCCC61B33284E00457183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		726CCCC71B33284E00457183 /* master_mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = master_mobileTests.m; sourceTree = "<group>"; };
+		726CCCD41B332B9C00457183 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		726CCCD51B332B9C00457183 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		726CCCD71B332C2500457183 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		726CCCD81B332C2500457183 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		726CCCD91B332C2500457183 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		726CCCDF1B333DF000457183 /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		726CCCE01B333DF000457183 /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
+		726CCCE21B33589200457183 /* AddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddController.h; sourceTree = "<group>"; };
+		726CCCE31B33589200457183 /* AddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +95,11 @@
 		726CCCA71B33284E00457183 /* master.mobile */ = {
 			isa = PBXGroup;
 			children = (
-				726CCCAC1B33284E00457183 /* AppDelegate.h */,
-				726CCCAD1B33284E00457183 /* AppDelegate.m */,
-				726CCCB21B33284E00457183 /* ViewController.h */,
-				726CCCB31B33284E00457183 /* ViewController.m */,
+				726CCCD31B332A2300457183 /* Controllers */,
+				726CCCD21B332A1A00457183 /* Customized */,
+				726CCCD11B3329FA00457183 /* Main */,
 				726CCCB51B33284E00457183 /* Main.storyboard */,
 				726CCCB81B33284E00457183 /* Images.xcassets */,
-				726CCCBA1B33284E00457183 /* LaunchScreen.xib */,
 				726CCCAF1B33284E00457183 /* master_mobile.xcdatamodeld */,
 				726CCCA81B33284E00457183 /* Supporting Files */,
 			);
@@ -120,6 +130,40 @@
 				726CCCC61B33284E00457183 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		726CCCD11B3329FA00457183 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				726CCCAC1B33284E00457183 /* AppDelegate.h */,
+				726CCCAD1B33284E00457183 /* AppDelegate.m */,
+				726CCCD41B332B9C00457183 /* Declarations.h */,
+				726CCCD51B332B9C00457183 /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		726CCCD21B332A1A00457183 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				726CCCD71B332C2500457183 /* Cell.h */,
+				726CCCD81B332C2500457183 /* Cell.m */,
+				726CCCD91B332C2500457183 /* Cell.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		726CCCD31B332A2300457183 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				726CCCB21B33284E00457183 /* Start.h */,
+				726CCCB31B33284E00457183 /* Start.m */,
+				726CCCDF1B333DF000457183 /* DetailsController.h */,
+				726CCCE01B333DF000457183 /* DetailsController.m */,
+				726CCCE21B33589200457183 /* AddController.h */,
+				726CCCE31B33589200457183 /* AddController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726CCCB71B33284E00457183 /* Main.storyboard in Resources */,
-				726CCCBC1B33284E00457183 /* LaunchScreen.xib in Resources */,
+				726CCCDB1B332C2500457183 /* Cell.xib in Resources */,
 				726CCCB91B33284E00457183 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,8 +268,12 @@
 			files = (
 				726CCCAE1B33284E00457183 /* AppDelegate.m in Sources */,
 				726CCCB11B33284E00457183 /* master_mobile.xcdatamodeld in Sources */,
-				726CCCB41B33284E00457183 /* ViewController.m in Sources */,
+				726CCCE11B333DF000457183 /* DetailsController.m in Sources */,
+				726CCCB41B33284E00457183 /* Start.m in Sources */,
 				726CCCAB1B33284E00457183 /* main.m in Sources */,
+				726CCCD61B332B9C00457183 /* Declarations.m in Sources */,
+				726CCCDA1B332C2500457183 /* Cell.m in Sources */,
+				726CCCE41B33589200457183 /* AddController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +302,6 @@
 				726CCCB61B33284E00457183 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		726CCCBA1B33284E00457183 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				726CCCBB1B33284E00457183 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
